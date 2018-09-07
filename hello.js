@@ -1,3 +1,3 @@
-const _ = require('lodash')
+const server = require('./server')
 
-console.log('Hello, ' + _.capitalize('javascript'))
+console.log('I required server: ' + server.name)
